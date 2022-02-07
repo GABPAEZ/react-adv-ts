@@ -23,7 +23,7 @@ export const Navigation = () => {
               {/* route se desectructura en patch y name */}
               {routes.map(({ path, name }) => (
                 <li key={path}>
-                  <NavLink to={path} activeClassName="nav-active" exact>
+                  <NavLink to={path} activeClassName="nav-active">
                     {name}
                   </NavLink>
                 </li>
